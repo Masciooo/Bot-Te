@@ -50,6 +50,10 @@
 			$text="la data è: ".date("d/m/y");
 			$parameters = array('chat_id' => $chatId, "text" => $text);
 		}
+		if($text="saluto"){
+			$text="il saluto è: DUCE!";
+			$parameters = array('chat_id' => $chatId, "text" => $text);
+		}
 		//aggiungo il comando di invio
 		//e lo invio
 		
